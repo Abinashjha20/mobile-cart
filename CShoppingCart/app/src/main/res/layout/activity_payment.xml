@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:gravity="center"
+        android:textColor="@color/bold_text_color"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+
+
+    <CheckBox
+        android:id="@+id/c_box1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paytm"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/bold_text_color"
+        android:textSize="25sp"/>
+
+
+    <CheckBox
+        android:id="@+id/c_box2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Banking"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/bold_text_color"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/c_box3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debit/Credit card"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/bold_text_color"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/c_box4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cash on Delivery"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/bold_text_color"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/cb_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:background="@drawable/newshape"
+        android:layout_margin="30dp"
+        android:onClick="proceedClick"
+        />
+
+
+
+</LinearLayout>
